@@ -25,19 +25,12 @@ print(percentage)
 mathematics={"Geoffrey Hinton":78,"Andrew Ng":95,"Sebastian Raschka":65,"Yoshua Benjio":50,"Hilary Mason	":70,"Corinna Cortes":66,"Peter Warden":75}
 topper = max(mathematics,key = mathematics.get)
 print (topper)
-
-
-
-
-
 # Code ends here  
 
 
 # --------------
 # Given string
 topper = 'andrew ng'
-
-
 # Code starts here
 first_name=(topper.split()[0])
 last_name=(topper.split()[1])
